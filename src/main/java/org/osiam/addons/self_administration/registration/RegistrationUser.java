@@ -31,9 +31,11 @@ import org.osiam.addons.self_administration.validators.Email;
 import org.osiam.addons.self_administration.validators.EqualPasswords;
 import org.osiam.addons.self_administration.validators.Password;
 import org.osiam.addons.self_administration.validators.Photo;
+import org.osiam.addons.self_administration.validators.RequiredFields;
 import org.osiam.addons.self_administration.validators.Username;
 
 @EqualPasswords
+@RequiredFields
 public class RegistrationUser {
 
     @Username
